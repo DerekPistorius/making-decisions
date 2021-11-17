@@ -71,27 +71,27 @@ let rain = false
 */
 
 //CODE HERE
-if(temperature >= 80 && rain===true){
-    console.log('you should wear a t-shirt and take a umbrella')
-} else {
-    if(temperature >= 60 && temperature <= 80 && rain === true){
-        console.log('you should wear a rain-jacket')
-    } else{
-        if(temperature <= 60){
-            console.log('you should wear a jacket and carry a umbrella')
-        } else{
-            if(temperature >= 80 && rain===false){
-                console.log('you should wear a t-shirt, shorts, and flip flops')
-            } else{
-                if(temperature >= 60 && temperature <= 80 && rain === false){
-                    console.log('you should wear a hoodie and leave the umbrella at home with your dog')
-                } 
+// if(temperature >= 80 && rain===true){
+//     console.log('you should wear a t-shirt and take a umbrella')
+// } else {
+//     if(temperature >= 60 && temperature <= 80 && rain === true){
+//         console.log('you should wear a rain-jacket')
+//     } else{
+//         if(temperature <= 60){
+//             console.log('you should wear a jacket and carry a umbrella')
+//         } else{
+//             if(temperature >= 80 && rain===false){
+//                 console.log('you should wear a t-shirt, shorts, and flip flops')
+//             } else{
+//                 if(temperature >= 60 && temperature <= 80 && rain === false){
+//                     console.log('you should wear a hoodie and leave the umbrella at home with your dog')
+//                 } 
                 
-            }
-        }
+//             }
+//         }
 
-    }
-}
+//     }
+// }
 
 
 
@@ -102,7 +102,9 @@ if(temperature >= 80 && rain===true){
 */
 
 //CODE HERE
-
+for(let i=0;i<10;i++){
+  console.log('hello')
+}
 
 ////////// PROBLEM 6 //////////
 
