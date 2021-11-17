@@ -138,10 +138,10 @@ let passingScore = 7
 */
 
 //CODE HERE
-while(score<7){
-  console.log("your score is not high enough")
-  score+=1
-}
+// while(score<7){
+//   console.log("your score is not high enough")
+//   score+=1
+// }
 ////////// INTERMEDIATE PROBLEMS //////////
 
 ////////// PROBLEM 9 //////////
@@ -152,6 +152,19 @@ while(score<7){
 */
 
 //CODE HERE
+var changeMyMind = true
+console.log(changeMyMind)
+
+if(changeMyMind === true)
+changeMyMind = !changeMyMind
+console.log(changeMyMind)
+
+if(changeMyMind === false)
+changeMyMind = !changeMyMind
+console.log(changeMyMind)
+
+
+
 
 ////////// PROBLEM 10 //////////
 // Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
