@@ -124,11 +124,8 @@ let rain = false
 */
 
 //CODE HERE
-let x = 10
-
-while (x>-1){
-  console.log(x)
-  x-=1
+for(let i = 10;i>-1;i--){
+  console.log(i)
 }
 
 let score = 0
