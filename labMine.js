@@ -124,9 +124,9 @@ let rain = false
 */
 
 //CODE HERE
-for(let i = 10;i>-1;i--){
-  console.log(i)
-}
+// for(let i = 10;i>-1;i--){
+//   console.log(i)
+// }
 
 let score = 0
 let passingScore = 7
@@ -138,7 +138,10 @@ let passingScore = 7
 */
 
 //CODE HERE
-
+while(score<7){
+  console.log("your score is not high enough")
+  score+=1
+}
 ////////// INTERMEDIATE PROBLEMS //////////
 
 ////////// PROBLEM 9 //////////
