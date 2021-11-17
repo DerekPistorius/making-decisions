@@ -113,9 +113,9 @@ let rain = false
 */
 
 //CODE HERE
-for(let i=1;i<11;i++){
-  console.log(i)
-}
+// for(let i=1;i<11;i++){
+//   console.log(i)
+// }
 
 ////////// PROBLEM 7 //////////
 
@@ -124,6 +124,12 @@ for(let i=1;i<11;i++){
 */
 
 //CODE HERE
+let x = 10
+
+while (x>-1){
+  console.log(x)
+  x-=1
+}
 
 let score = 0
 let passingScore = 7
