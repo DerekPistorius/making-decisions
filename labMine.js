@@ -10,7 +10,11 @@
 
 let Lovescode = true
 
-console.log (Lovescode)
+if (Lovescode === true){
+    console.log ("I love to code!")
+} else{
+    console.log ("Coding has its challenges")
+}
 
 
 
