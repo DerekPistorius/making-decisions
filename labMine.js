@@ -159,9 +159,6 @@ if(changeMyMind === true)
 changeMyMind = !changeMyMind
 console.log(changeMyMind)
 
-if(changeMyMind === false)
-changeMyMind = !changeMyMind
-console.log(changeMyMind)
 
 
 
